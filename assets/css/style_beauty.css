@@ -1,0 +1,423 @@
+
+/* style.css */
+/* ---------NAVBAR---------- */
+
+#navbar-2>.container {
+    display: flex;
+    justify-content: center;
+}
+
+#collapsibleNavbar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#navbarNav {
+    display: flex;
+    justify-content: center;
+    border: 2px solid beige;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 1px lightgreen;
+}
+
+/* #navbar-2>.container .collapse>.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Responsive behaviour */
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+
+.header2 {
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 5px rgb(124, 194, 124);
+}
+
+
+li {
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.dropdown-link {
+    text-decoration: none;
+}
+
+.dropdown-header {
+    font-style: 30px;
+}
+
+.dropdown-item{
+    transition: all 0.15s ease-in-out;
+}
+
+.dropdown-item:hover {
+    color: palevioletred;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.images {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    background-size: cover;
+}
+
+
+/* CAROUSEL */
+/* 
+.carousel-item img {
+    align-items: center;
+    float: left;
+} */
+
+/* 
+.carousel-caption {
+    position: relative;
+    margin-top: 30px;
+}
+
+.text-box {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+} */
+
+
+
+/* ----BEST SELLERS---- */
+
+.best-seller-item {
+    margin-left: 4rem;
+    margin-right: 3rem;
+}
+
+
+/* ----------WHY GLOWING----------- */
+
+
+.glowing .glowing-title{
+    text-align: center;
+    text-shadow: 2px 2px 2px lightcoral ;   
+}
+
+.glowing-item .card-img-top{
+    height: 10rem;
+    width: 10rem;
+    margin-inline: auto;
+}
+
+.glowing .card{
+    border: none;   
+}
+
+.glowing .card-title{
+    position: absolute;
+    text-align: center;
+}
+
+.glowing .card-text{
+    letter-spacing: 2px;
+    text-align: center; 
+}
+
+
+/* ----------bLOG----------- */
+
+.blog .card-img-top{
+    height: 15rem;
+    width: 22rem;
+}
+
+.blog .card-text,.blog-title{
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog .card-text:hover{
+    color: lightgreen;
+}
+
+.blog .card{
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.blog .card:hover{
+    transform: scale(1.05);
+    border-radius: 10px;
+}
+
+.a-link {
+    text-decoration: none;
+}
+
+.a-link:hover {
+    text-decoration: none;
+}
+
+
+/* ----------- PRODUCTS ---------*/
+
+.products {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.products .products-title {
+    text-align: center;
+    text-shadow: 2px 2px 2px lightgreen;    
+}
+
+.products .card-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.products .card {
+    border: none;
+    width: 20rem;
+}
+
+.products .card-title {
+    font-size: 15px;
+    text-align: center;
+}
+
+.products .card .card-img-top{
+    border: 1px solid rgb(236, 235, 235);
+    transition: all 0.3s ease-in-out;
+}
+
+.products .card .card-img-top:hover {
+    transform: scale(1.05);
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+
+.products .hair-title {
+    color: crimson;
+    font-family: cookie regular;
+    text-align: center;
+}
+
+.products .d-flex{
+    overflow-x: auto;
+    /* overflow-x:visible; */
+}
+
+
+/* -----------COLLECTION------ */
+
+.collection img {
+    border-radius: 5px;
+    height: 460px;
+    width: 380px;
+}
+
+.collection .collection-content {
+    color: #333;
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+}
+
+.collection>.container {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.card-collection {
+    height: 460px;
+    width: 380px;
+}
+
+
+
+.card-collection .collection-img  a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+.card-1 {
+    /* background: url("assets\\images\\collection-1.jpg"); */
+    border-radius: 5px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-2 {
+    /* background: url("assets/images/collection-2.jpg"); */
+    border-radius: 5px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-3 {
+    /* background: url("assets/images/collection-3.jpg"); */
+    border-radius: 5px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer .logo {
+    display: none;
+}
+
+.footer {
+    /* background-color: var(--cultured-1)) */
+    /* background-color: #d5f2e3; */
+    background: url(/images/wave2.svg);
+    animation: one infinite;
+    background-repeat: no-repeat;
+    padding: 70px;
+    font-family: Urbanist, sans-serif;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.footer-top {
+    display: grid;
+    margin-block-end: 60px;
+    gap: 20px;
+}
+
+.footer-heading {
+    color: rgb(23, 22, 22);
+    font-size: 1.5rem;
+}
+
+.footer-list-text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.footer .a-link:hover {
+    text-decoration: none;
+    color: rgb(124, 194, 124);
+    padding-left: 10px;
+}
+
+.footer-list {
+    display: inline-block;
+    /* color: gray; */
+}
+
+.social-list {
+    display: flex;
+}
+
+.fa-brands {
+    color: black;
+    font-size: 30px;
+    transition: transform 1s;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.social-list {
+    justify-content: center;
+}
+
+.fa-brands:hover {
+    transform: scale(1.3);
+    /* color: #d88c9a; */
+    color: #57cc99;
+}
+
+.one {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: lightgreen;
+    animation: one 3s infinite;
+}
+
+@keyframes one {
+    0% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(2);
+        background-color: lightcoral;
+    }
+
+    0% {
+        transform: scale(0.3);
+        background-color: lightseagreen;
+    }
+}
+
+
+/*--------------------------
+===== utility classes =====
+---------------------------*/
+
+.a-link {
+    text-decoration: none;
+    color: gray;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul>li {
+    list-style: none;
+}
+
